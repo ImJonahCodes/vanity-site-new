@@ -17,6 +17,7 @@
     "@cosmicjs/sdk": "^1.0.5",
     "astro": "^3.0.8",
     "date-fns": "^2.29.2",
+    "preline": "^2.0.3",
     "react-markdown": "^8.0.3",
     "sharp": "^0.32.1",
     "tailwindcss": "^3.3.2"

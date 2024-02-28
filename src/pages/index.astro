@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import { getAllPosts } from '../lib/cosmic'
+import Hero from '../components/main-page/Hero.astro'
 
 const data = await getAllPosts()
 
@@ -21,6 +22,7 @@ export interface Post {
 ---
 
 <Layout>
+  <Hero />
   <h1 class="text-4xl font-bold">
     Simple <span
       class="bg-gradient-to-b from-[#4f39fa] to-[#da62c4] bg-clip-text text-transparent"
